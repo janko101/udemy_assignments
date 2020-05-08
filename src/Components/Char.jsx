@@ -8,7 +8,7 @@ const Char = (props) => {
     border: "1px solid purple",
     boxShadow: "0px 2px 15px purple",
   };
-return <div style={style}>{props.character}</div>;
+return <div style={style} onClick={props.click}>{props.character}</div>;
 };
 
 export default Char;
